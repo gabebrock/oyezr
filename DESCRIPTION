@@ -1,0 +1,21 @@
+Package: scotusr
+Type: Package
+Title: Access to the Oyez API
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Gabriel", "Brock",
+      email = "gbrock@college.harvard.edu",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0009-0005-6958-9516")
+    )
+  )
+Description: Download and read data from the Supreme Court of the United States.
+    Data is read from Oyez.com's Application Programming Interface.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
