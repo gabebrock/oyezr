@@ -16,8 +16,19 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Config/roxygen2/version: 8.1.0
+Imports:
+    cli,
+    dplyr,
+    httr2,
+    purrr,
+    stringr,
+    tidyr,
+    tibble
 Suggests: 
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    spelling
 Config/testthat/edition: 3
 URL: https://github.com/gabebrock/scotusr
 BugReports: https://github.com/gabebrock/scotusr/issues
