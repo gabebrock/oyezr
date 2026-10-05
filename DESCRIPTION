@@ -1,4 +1,4 @@
-Package: scotusr
+Package: oyezr
 Type: Package
 Title: Access to the Oyez API
 Version: 0.1.0
@@ -30,5 +30,5 @@ Suggests:
     rmarkdown,
     spelling
 Config/testthat/edition: 3
-URL: https://github.com/gabebrock/scotusr
-BugReports: https://github.com/gabebrock/scotusr/issues
+URL: https://github.com/gabebrock/oyezr
+BugReports: https://github.com/gabebrock/oyezr/issues
